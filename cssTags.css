@@ -1,40 +1,56 @@
-table{
+/*navigation bar */
+nav ul{
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    overflow:hidden;
+    background-color: #333;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 25px 20px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: maroon;
+}
+.active {
+    background-color: #04AA6D;
+}
+.active:hover{
+    background-color: maroon;
+}
 
+/*tables*/
+section{
+    margin: 15px;
 }
 table, th, td {
     border: 1px solid rgb(0, 0, 0);
     border-collapse: collapse;
     padding: 1px;
 }
-.images{
-    width: 50;
-    height: 30;
+.tableimages{
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+  width: 150px;
 }
 
-/*navigation bar */
-ul{
-     list-style-type: none;
-     display: inline;
-     margin: 0;
-     padding: 0;
+
+
+
+
+h1{
+    margin:15px;
+    text-align:center
 }
-ul li{
-    float: left;
-}
-ul li a{
-    display: block;
-    padding: 8px;
-    background-color: black;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-}
-li a:hover{
-    background-color: rgb(59, 13, 184);
-}
-.active {
-    background-color: #04AA6D;
-}
-.active:hover{
-        background-color: #01613e;
+.columCount{
+    column-count: 2;
 }

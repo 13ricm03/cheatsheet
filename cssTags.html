@@ -2,13 +2,13 @@
 <html lang='english'>
     <head>
         <link rel=stylesheet type="text/css" href="C:\git\portfolio\cheatsheet\cssTags.css">
-        <title>intro and explination of the cite</title>        
+        <title>CSS Tags</title>        
     </head>
 
     
     <body>
         <header>
-            <h1>Hello</h1>
+            <h1>How to use CSS Tags</h1>
         <nav>
             <ul>
                 <li><a class="active" href="cssTags.html">CSS</a></li>
@@ -18,12 +18,21 @@
             </ul>
         </nav>
         </header>
-            <tbody>
-                <thead>
-                    <th scope="col"> Concepts</th>
-                    <th scope="col">Uses</th>
-                </thead>
-                <table>
+
+
+
+
+
+
+        <section>
+        <table>
+                    <tbody>
+                        <thead>
+                            <tr>
+                                <th scope="col"> Concepts</th>
+                                <th scope="col">Uses</th>
+                             </tr>
+                        </thead>
                     <tr>
                         <td>"tables"</td>
                         <td>To specify table borders in CSS, use the border properties. These include "boder", "boder-collapse", "width", and "heigh".</td>
@@ -59,42 +68,47 @@
                             </td>
                     </tr>
                     <tr>
-                        <td>transitions</td>
-                        <td>To create a transition effect, you must specify two things:
-
-                            the CSS property you want to add an effect to
-                            the duration of the effect
-                            Note: If the duration part is not specified, the transition will have no effect, because the default value is 0.
-                            
-                            The following example shows a 100px * 100px red "div" element. The "div" element has also specified a transition effect for the width property, with a duration of 2 seconds:</td>
+                        <td>Transitions</td>
+                        <td>
+                            <ul>
+                                <p>To create a transition effect, you must specify two things:</p>
+                                <li>The CSS property you want to add an effect to</li>
+                                <li>the duration of the effect</li>
+                                <p><strong>Note:</strong> If the duration part is not specified, the transition will have no effect, because the default value is 0. The following example shows a 100px * 100px red "div" element. The "div" element has also specified a transition effect for the width property, with a duration of 2 seconds:</p>
+                            </ul>
+                        </td>
                     </tr>
                     <tr>
                         <td>gradient</td>
-                        <td>To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.
-
-                            Syntax
-                            background-image: linear-gradient(direction, color-stop1, color-stop2, ...);</td>
+                        <td>
+                            <p>To create a linear gradient you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.</p>
+                            <p>Syntax</p>
+                            <p>background-image: linear-gradient(direction, color-stop1, color-stop2, ...);</p>
+                        </td>
                     </tr>
                     <tr>
-                        <td>links</td>
-                        <td>
+                        <td>Navigation Bar</td>
+                        <td class="columCount">
                             <ul>The four links states are:
                                 <li>a:link - a normal, unvisited link</li>
                                 <li>a:visited - a link the user has visited</li>
                                 <li>a:hover - a link when the user mouses over it</li>
                                 <li>a:active - a link the moment it is clicked</li>
-                            <img src="images/linkAnimation.JPG" alt="this image cover the link styling available in css"/>
                         </ul>
+                        <img class="tableimages" src="images/linkAnimation.JPG" alt="this image cover the link styling available in css"/>
                     </td>
                     </tr>
                     <tr>
-                        <td>navigation bar</td>
-                        <td>
-                            <img src="images/buttonExample.JPG" alt="example of making a horizontal navigation bar" />
+                        <td>Buttons</td>
+                        <td class="columCount">
+                            <ul>The four links states are:
+                                <li>a:link - a normal, unvisited link</li>
+                        </ul>
+                            <img class="tableimages" src="images/buttonExample.JPG" alt="example of making a horizontal navigation bar" />
                         </td>
                     </tr>
                     <tr>
-                        <td>float</td>
+                        <td>Float</td>
                         <td>The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
 
                             The float property can have one of the following values:
@@ -107,19 +121,24 @@
                     </tr>
                     <tr>
                         <td>animations</td>
-                        <td>
+                        <td class="columCount">
                             <p>What are CSS Animations?</p>
                         <ul>
                             <li>An animation lets an element gradually change from one style to another.</li>
                             <li>You can change as many CSS properties you want, as many times as you want.</li>
                             <li>To use CSS animation, you must first specify some keyframes for the animation.</li>
                             <li>Keyframes hold what styles the element will have at certain times.</li>
-                            <img src="images/animationCSSExample.JPG" alt="example of css animation"/>
                         </ul>
+                        <img class="tableimages" src="images/animationCSSExample.JPG" alt="example of css animation"/>
                         </td>
-                    </tr>
-                </table>
+                    </tr> 
+        </table>
             </tbody>
+        </section>
+
+
+
+
         <li><strong><a href="https://www.w3schools.com/tags/default.asp">W3</a> School is great at breaking down the different tags</strong></li>
         <li><strong><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Mozilla</a> is the basic
              bitch of the webdesign cites.</strong></li>

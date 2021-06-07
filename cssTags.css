@@ -26,6 +26,7 @@ li a:hover{
     background-color: maroon;
 }
 
+
 /*tables*/
 section{
     margin: 100px;
@@ -50,6 +51,8 @@ table, th, td {
     font-family: Helvetica;
     background-color: lightcyan;
     font-weight: bold;
+    width: .1%;
+    word-wrap: break-word;
 }
 .tableHeader{
     font-size: 40px;
@@ -60,7 +63,7 @@ table, th, td {
 }
 
 
-
+/*body*/
 body{
     font-size:18px;
     font-family: 'Times New Roman', Times, serif;
@@ -70,12 +73,14 @@ body{
 h1{
     margin:15px;
     text-align:center;
+    font-size: 50px;
 }
 .columCount{
     column-count: 2;
 }
 
 
+/*footer*/
 footer{
     background-color:darkgreen;
     margin: 25px;

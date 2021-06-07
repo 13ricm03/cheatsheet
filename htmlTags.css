@@ -1,5 +1,98 @@
+/*navigation bar */
+nav ul{
+    list-style-type: none;
+    margin: 25px;
+    padding: 0;
+    overflow:hidden;
+    background-color:darkgreen;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: medium;
+}
+li a:hover{
+    background-color: maroon;
+}
+.active {
+    background-color: #04AA6D;
+}
+.active:hover{
+    background-color: maroon;
+}
+
+
+/*tables*/
+section{
+    margin: 100px;
+}
 table, th, td {
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid black;
     border-collapse: collapse;
-    padding: 6px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+.tableimages{
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+.concepts{
+    text-align: center;
+    font-size: 15px;
+    font-family: Helvetica;
+    background-color: lightcyan;
+    font-weight: bold;
+    width: .1%;
+    word-wrap: break-word;
+    
+}
+.tableHeader{
+    font-size: 40px;
+    font-weight: bold;
+    font-variant-caps: all-petite-caps;
+    background-color:black;
+    color:white;
+}
+
+
+
+/*body*/
+body{
+    font-size:18px;
+    font-family: 'Times New Roman', Times, serif;
+    background: url("http://www.webtechelp.net/wp-content/uploads/2014/05/Website-Background.jpg");
+    color:ivory;
+}
+h1{
+    margin:15px;
+    text-align:center;
+    font-size: 50px;
+}
+.columCount{
+    column-count: 2;
+}
+article{
+    background-color:black;
+    margin: auto;
+}
+
+/*footer*/
+footer{
+    background-color:darkgreen;
+    margin: 25px;
+    padding: 10px;
+    color: white;
+}
+footer a{
+    color:ivory;
 }

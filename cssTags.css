@@ -31,26 +31,44 @@ section{
     margin: 15px;
 }
 table, th, td {
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(253, 253, 253);
     border-collapse: collapse;
-    padding: 1px;
+    padding: 10px;
 }
 .tableimages{
     object-fit: cover;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-  width: 150px;
+    width: 150px;
+}
+.concepts{
+    text-align: center;
+    font-size: 15px;
+    font-family: Helvetica;
+}
+.tableHeader{
+    font-size: 40px;
+    font-weight: bold;
+    font-variant-caps: all-petite-caps;
 }
 
 
 
-
-
+body{
+    font-size:18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image:url("C:\git\portfolio\cheatsheet\cssTags.css");
+    color: black;
+}
 h1{
     margin:15px;
     text-align:center
 }
 .columCount{
     column-count: 2;
+}
+footer{
+    background-color: black;
+    padding: 10px;
 }

@@ -1,10 +1,10 @@
 /*navigation bar */
 nav ul{
     list-style-type: none;
-    margin: 15px;
+    margin: 25px;
     padding: 0;
     overflow:hidden;
-    background-color: #333;
+    background-color:darkgreen;
 }
 nav ul li{
     float: left;
@@ -28,12 +28,14 @@ li a:hover{
 
 /*tables*/
 section{
-    margin: 15px;
+    margin: 100px;
 }
 table, th, td {
-    border: 1px solid rgb(253, 253, 253);
+    border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
+    background-color: white;
+    color: black;
 }
 .tableimages{
     object-fit: cover;
@@ -46,11 +48,15 @@ table, th, td {
     text-align: center;
     font-size: 15px;
     font-family: Helvetica;
+    background-color: lightcyan;
+    font-weight: bold;
 }
 .tableHeader{
     font-size: 40px;
     font-weight: bold;
     font-variant-caps: all-petite-caps;
+    background-color:black;
+    color:white;
 }
 
 
@@ -58,17 +64,24 @@ table, th, td {
 body{
     font-size:18px;
     font-family: 'Times New Roman', Times, serif;
-    background-image:url("C:\git\portfolio\cheatsheet\cssTags.css");
-    color: black;
+    background: url("http://www.webtechelp.net/wp-content/uploads/2014/05/Website-Background.jpg");
+    color:ivory;
 }
 h1{
     margin:15px;
-    text-align:center
+    text-align:center;
 }
 .columCount{
     column-count: 2;
 }
+
+
 footer{
-    background-color: black;
+    background-color:darkgreen;
+    margin: 25px;
     padding: 10px;
+    color: white;
+}
+footer a{
+    color:ivory;
 }
